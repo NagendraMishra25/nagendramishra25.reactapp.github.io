@@ -1,0 +1,76 @@
+/*App css goes here*/
+body {
+    font-size: 14px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar-brand {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: #9d9d9d;
+}
+
+.navbar-dark .navbar-brand {
+    color: #9d9d9d;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+.rdt_Table {
+    margin: 30px auto 0px auto;
+    max-width: 1000px;
+    box-shadow: 0 0 15px rgb(236, 236, 236);
+    table-layout: fixed;
+}
+
+    .rdt_Table .rdt_TableHead .rdt_TableCol {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+.rdt_TableBody .rdt_TableRow {
+    height: auto;
+    border-top: 1px solid #ddd;
+    height: 40px;
+}
+   
+.rdt_TableBody .rdt_TableRow:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+.rdt_TableHead .rdt_TableCol, .rdt_TableCell {
+    border-right: 1px solid #ddd;
+}
+
+/*coulumn header arrow css goes here*/
+.dFXaYT::before, .hJxOVn::before {
+    content: none;
+}
+
+.dFXaYT::before, .hJxOVn::before {
+    
+}
+
+.hJxOVn::after {
+    content: '\25BC';
+}
+.dFXaYT::after {
+    content: '\25B2';
+}
+
+.dFXaYT::after, .hJxOVn::after {
+    margin-bottom: 1px;
+    font-size: 12px;
+    padding-right: 4px;
+}
+
+.hJxOVn::after {
+    content: '\25BC';
+}
+
+.sc-jTzLTM.ibpXsR, .sc-jTzLTM.frKpZh {
+    font-weight: bold;
+    color: #333;
+}
